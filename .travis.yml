@@ -4,6 +4,7 @@ branches:
   only:
   - hexo
 before_install:
+- mkdir ~/.ssh
 - openssl aes-256-cbc -K $encrypted_e2e11e5af355_key -iv $encrypted_e2e11e5af355_iv
   -in .travis/id_rsa.enc -out ~\/.ssh/id_rsa -d
 - chmod 600 ~/.ssh/id_rsa
