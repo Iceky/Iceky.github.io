@@ -8,7 +8,7 @@ head:
     favicon: "/img/favicon.png"
     high_res_favicon: "/img/favicon.png"
     apple_touch_icon: "/img/favicon.png"
-    keywords: Milkice,Milkice's Blog,奶冰,奶冰博客,奶冰の日志,奶冰日志,奶冰冷藏室,Milkice's IceBox,奶冰的博客,奶冰的日志,Mlk,Ice
+    keywords: Milkice
     site_verification:
         google:
         baidu:
@@ -133,7 +133,7 @@ prettify:
 #                    - If `includeDefaultColors` is true, this will append colors to the color pool
 #                    - If `includeDefaultColors` is false, this will instead default color pool
 hanabi:
-    enable: true
+    enable: false
     line_number: true
     includeDefaultColors: true
     customColors: 
