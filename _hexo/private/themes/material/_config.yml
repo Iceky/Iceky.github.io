@@ -1,13 +1,14 @@
 # ---------------------------------------------------------------
 # Site Information Settings
 # ---------------------------------------------------------------
+language: zh-CN
 
 # Head info
 head:
     favicon: "/img/favicon.png"
     high_res_favicon: "/img/favicon.png"
     apple_touch_icon: "/img/favicon.png"
-    keywords:
+    keywords: Milkice,Milkice's Blog,奶冰,奶冰博客,奶冰の日志,奶冰日志,奶冰冷藏室,Milkice's IceBox,奶冰的博客,奶冰的日志,Mlk,Ice
     site_verification:
         google:
         baidu:
@@ -33,7 +34,7 @@ scheme: Paradox
 
 # UI & UX: slogan, color, effect
 uiux:
-    slogan: "Hi, nice to meet you"
+    slogan: "Maybe a way to explore the world?"
     theme_color: "#0097A7"
     theme_sub_color: "#00838F"
     hyperlink_color: "#00838F"
@@ -45,7 +46,7 @@ uiux:
 # JS Effect Switches
 js_effect:
     fade: true
-    smoothscroll: false
+    smoothscroll: true
 
 # Reading experience
 reading:
@@ -62,7 +63,7 @@ thumbnail:
 #        color available value: black, blue, brown, green, multi, orange, pink, purple, red, white, yellow
 #        type available value: A (animal), C (culture), N (nature), S (space), T (travel)
 background:
-    purecolor: "#F5F5F5"
+    purecolor: "#4f4f4f"
     #bgimg: "/img/bg.png"
     bing:
         enable: false
@@ -98,7 +99,7 @@ card_elevation: 2
 # Copyright
 # Specify the date when the site was setup.
 #    For example, if you set it as 2015, then footer will show '© 2015 - 2017'
-copyright_since:
+copyright_since:2016
 
 # Footer Text
 # You can specify the text you want to show in footer, HTML tag is supported.
@@ -132,7 +133,7 @@ prettify:
 #                    - If `includeDefaultColors` is true, this will append colors to the color pool
 #                    - If `includeDefaultColors` is false, this will instead default color pool
 hanabi:
-    enable: false
+    enable: true
     line_number: true
     includeDefaultColors: true
     customColors: 
@@ -157,19 +158,19 @@ toc:
 
 # SNS Menu
 sns:
-    email: youremail@email.com
-    facebook: "https://www.facebook.com/facebook"
-    twitter: "https://twitter.com/twitter"
-    googleplus: "https://www.google.com/"
+    email: Milkice.Liu,hexo@gmail.com
+    facebook: 
+    twitter: "https://twitter.com/ALI_Milkice"
+    googleplus: 
     weibo:
     instagram:
     tumblr:
-    github:
+    github: "https://git.io/milkice"
     linkedin:
     zhihu:
     bilibili:
-    telegram:
-    v2ex:
+    telegram: "https://t.me/milkice"
+    v2ex: 
 
 # SNS Share Switch
 sns_share:
@@ -179,7 +180,7 @@ sns_share:
     weibo: true
     linkedin: false
     qq: false
-    telegram: false
+    telegram: true
 
 # Sidebar Customize
 sidebar:
@@ -260,7 +261,7 @@ search:
 # Available value:
 #     baidu | google | cnzz
 analytics:
-    google_site_id:
+    google_site_id: 
     baidu_site_id:
     cnzz_site_id:
 
